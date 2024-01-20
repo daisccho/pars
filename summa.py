@@ -34,7 +34,7 @@ def summarize_text(text):
 
     s = ''
 
-    # выводим говно
+    # выводим
     for sentence in summarizer(parser.document, SENTENCES_COUNT):
         s += str(sentence)
 
